@@ -1,0 +1,13 @@
+{
+  "name": "presentations",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides/2025-05-22-salesforce-innovation-day-osaka-dx/slides.md",
+    "build": "slidev build slides/2025-05-22-salesforce-innovation-day-osaka-dx/slides.md",
+    "export": "slidev export slides/2025-05-22-salesforce-innovation-day-osaka-dx/slides.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.48.4",
+    "@slidev/theme-default": "^0.48.4"
+  }
+}

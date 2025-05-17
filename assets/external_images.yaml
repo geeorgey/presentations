@@ -1,0 +1,13 @@
+external_images:
+  - name: leaveanest_logo
+    url: https://lne.st/wp-content/uploads/2022/04/LeaveaNest_logo_header.png
+    description: "株式会社リバネスのロゴ"
+  - name: knowledge_logo
+    url: https://k.lne.st/wp-content/uploads/sites/76/2022/08/lnest_knowledge-.png
+    description: "株式会社リバネスナレッジのロゴ"
+  - name: dreamforce_2019
+    url: https://lne.st/wp-content/uploads/2025/05/7e97b4dac4bfd3718fa55f612fcbce1c.png
+    description: "2019年Dreamforce登壇時の画像"
+  - name: yoshida_profile
+    url: https://lne.st/wp-content/uploads/2025/05/78626087_10221322607716697_5436811581734256640_n-9.jpg
+    description: "吉田丈治のプロフィール画像"

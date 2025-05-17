@@ -15,6 +15,7 @@
 ---
 
 # はじめまして、吉田丈治(George YOSHIDA)です
+<img src="../../assets/images/dreamforce_2019.png" alt="2019年Dreamforce登壇時の画像" width="45%" align="right" />
 株式会社リバネス 取締役CIO  
 株式会社リバネスナレッジ 代表取締役社長  
 2002年  

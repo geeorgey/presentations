@@ -1,56 +1,9 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>George Yoshida Presentations</title>
-<style>
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
-  color: #f7f7f7;
-  margin: 0;
-}
-.container {
-  max-width: 960px;
-  margin: auto;
-  padding: 2rem;
-}
-header {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-header h1 {
-  color: #E42625;
-  margin: 0;
-}
-.profile {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.profile img {
-  width: 200px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
-.affiliations {
-  list-style: none;
-  padding: 0;
-}
-.affiliations li {
-  margin-bottom: .3rem;
-}
-.social-links a {
-  color: #70e3ff;
-  text-decoration: none;
-  margin: 0 .5rem;
-}
-.presentation-list a {
-  color: #E42625;
-  text-decoration: none;
-}
-</style>
-</head>
-<body>
+---
+title: George Yoshida Presentations
+---
+
+<link rel="stylesheet" href="assets/css/style.css">
+
 <div class="container">
   <header>
     <h1>George Yoshida Presentations</h1>
@@ -75,5 +28,3 @@ header h1 {
     </ul>
   </section>
 </div>
-</body>
-</html>

@@ -8,14 +8,14 @@ date: 2025-05-22
 株式会社リバネス 取締役CIO  
 株式会社リバネスナレッジ 代表取締役社長
 
-<img src="../../assets/images/company_logo.png" class="w-40" />
+<img src="https://lne.st/wp-content/uploads/2022/04/LeaveaNest_logo_header.png" alt="株式会社リバネスのロゴ" class="w-40" />
 
 ---
 
 ## Salesforce Innovation Day 大阪 DX推進企業の集い
 2025年5月22日
 
-<img src="../../assets/images/company_logo.png" class="w-40" />
+<img src="https://lne.st/wp-content/uploads/2022/04/LeaveaNest_logo_header.png" alt="株式会社リバネスのロゴ" class="w-40" />
 
 ---
 
@@ -32,4 +32,4 @@ date: 2025-05-22
 ---
 
 ## ありがとうございました
-<img src="../../assets/images/company_logo.png" class="w-40" />
+<img src="https://lne.st/wp-content/uploads/2022/04/LeaveaNest_logo_header.png" alt="株式会社リバネスのロゴ" class="w-40" />

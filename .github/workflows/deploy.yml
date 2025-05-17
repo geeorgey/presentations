@@ -22,15 +22,15 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-
+          node-version: '18'
       - name: Install dependencies
         working-directory: slides/2025-05-22-salesforce-innovation-day-osaka-dx
         run: npm install
 
       - name: Build slide deck
         working-directory: slides/2025-05-22-salesforce-innovation-day-osaka-dx
+        env:
+          CI: 'true'
         run: npx slidev build --base /${{ github.event.repository.name }}/slides/2025-05-22-salesforce-innovation-day-osaka-dx/
 
       - name: Prepare pages directory

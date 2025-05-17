@@ -1,0 +1,6 @@
+images:
+  - file: company_logo.png
+    description: "Company logo for all slides"
+    color: "#E42625"
+  - file: osaka_castle.jpg
+    description: "Photo of Osaka Castle"

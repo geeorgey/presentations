@@ -1,0 +1,48 @@
+name: Deploy Slides
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        working-directory: slides/2025-05-22-salesforce-innovation-day-osaka-dx
+        run: npm install
+
+      - name: Build slide deck
+        working-directory: slides/2025-05-22-salesforce-innovation-day-osaka-dx
+        run: npx slidev build --base /${{ github.event.repository.name }}/slides/2025-05-22-salesforce-innovation-day-osaka-dx/
+
+      - name: Prepare pages directory
+        run: |
+          mkdir -p public/slides/2025-05-22-salesforce-innovation-day-osaka-dx
+          cp index.html -t public/
+          cp -r assets public/
+          cp -r slides/2025-05-22-salesforce-innovation-day-osaka-dx/dist/* public/slides/2025-05-22-salesforce-innovation-day-osaka-dx/
+
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: public
+      - uses: actions/deploy-pages@v1
+        id: deployment

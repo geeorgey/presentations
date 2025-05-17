@@ -23,7 +23,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-
       - name: Install dependencies
         working-directory: slides/2025-05-22-salesforce-innovation-day-osaka-dx
         run: npm install
